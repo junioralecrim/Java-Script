@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo</title>
+    <style> /*essa parte corresponde ao css*/
+        body{
+            background-color: rgb(129, 221, 221);
+            color: white;
+            font: normal 15pt Arial;
+        }
+        h1{
+            color: rgb(30, 27, 58);
+        }    
+    </style>
+</head>
+<h1>Essa página é um teste!</h1>
+<p>Isso daqui é somente um teste mesmo!</p>
+<body>
+    <script>
+
+/*Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).*/
+
+        var distancia = Number(window.prompt('Digite a distância total percorrida em km: '))
+
+        var combustivelGasto = Number(window.prompt('Diga a quantidade de combustível gasta em litros: '))
+
+        var consumoMedio = distancia/combustivelGasto
+
+        window.alert(`O automóvel percorreu ${distancia}km, gastando ${combustivelGasto} litros de gasolina. Com média de: ${consumoMedio}km por litro.`)
+
+    </script>
+</body>
+</html>
