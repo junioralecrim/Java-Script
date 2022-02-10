@@ -12,7 +12,7 @@
             font: normal 15pt Arial;
         }
         h1{
-            color: rgb(30, 27, 58);
+            color: rgb(41, 35, 95);
         }    
     </style>
 </head>
@@ -24,29 +24,29 @@
 /*Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o valor lido e a relação de notas necessárias.*/
 
 var valor = Number(window.prompt('Digite o valor que deseja: '))
-var contador = 1
+var contador = 0, contador50 = 0, aux = 0;
 
 if ((valor < 0) || (valor > 1000000))  {
  window.alert("Você precisa digitar um valor válido!\n")
 } else 
 
 {
+    for (contador = 0; contador != valor; contador+100){
 
-    while(valor != contador){
+        if(contador == valor){
+            window.alert(`Contador: ${contador}`)
+        }
 
-    contador = contador*100
-    if(contador > valor){
-        contador = ((contador - valor)*50)
-    }
+            if(contador > valor){
+                contador50 = ((contador - valor)+50)
+            }
+
+    window.alert(`Contador100: ${contador100}`)
 
 }
 
 
 }
-    
-        
-
-
     </script>
 </body>
 </html>
