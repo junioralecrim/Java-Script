@@ -4,10 +4,29 @@
     <title>Form</title>
 </head>
 <body>
-    <h1>Encontre no Google</h1> 
+    <h3>Encontre no Google</h3> 
     <form action="https://www.google.com/search">
         <label for="q">O que deseja pesquisar?</label>
-        <input type="text" name="q" id="q" placeholder="Nasa, SpaceX, Aviões">        <input type="submit" value="Pesquisar">
+        <input type="text" name="q" id="q" placeholder="Nasa, SpaceX, Aviões" required>
+        <!--O parâmetro required serve para obrigar o usuário a digitar alguma coisa na caixinha. Caso esteja vazia ela não vai retornar nada, apenas uma mensagem pedindo para preencher o campo vazio.-->
+
+        <input type="submit" value="Pesquisar">
+    </form> 
+    <h3>Digite um e-mail</h3> 
+    <form action="https://www.google.com/search">
+        <label for="q">Digite seu e-mail:</label>
+        <input type="email" name="q" id="q" placeholder="Nasa, SpaceX, Aviões">
+        <!--Não precisa colocar o required para validar o email em si, só o type dele já vai fazer essa verificação e não deixa o usuário seguir caso não corresponda ao padrão de e-mail-->
+
+        <input type="submit" value="Pesquisar">
+    </form> 
+    <h3>Validação de número</h3> 
+    <form action="https://www.google.com/search">
+        <label for="q">Digite seu e-mail:</label>
+        <input type="number" name="q" id="q" placeholder="5, 10, 20" min="2" max="22">
+        <!--Pelo type number ele vai primeiramente deixar digitar apenas números-->
+
+        <input type="submit" value="Pesquisar">
     </form> 
 </body>
 </html>
