@@ -5,7 +5,21 @@
 </head>
 <body>
     <h1>Encontre no Google</h1>
+    <!--Eu poderia colocar um método em baixo para capturar os elementos ao invés de enviar para o servido. Ficaria algo como:
+
+    <form action="https://www.google.com/search" method="get"></form>
+
+    uma observação importante é que nesse tipo de uso tem que ser colocado o método dentro da primeira tag do form
+    -->
+    
+    
     <form action="https://www.google.com/search"> <!--O Action indica para onde a informação escrita no form vai ser enviada. No caso, vai ser enviada ao url do google-->
+        <label for="q">O que deseja pesquisar?</label> <!--Essa tag é um nome associado a algum imput. Ou seja, é pra direcionar o usuário ao que ele deve inserir dentro do form. O id aqui dentro é o "q". Quando eu clicar no texto de pergunta a caixinha vai ser selecionada automaticamente-->
+
+        <input type="text" name="q" id="q" placeholder="Nasa, SpaceX, Aviões"> <!--O input é o espaço em que o usuário vai digitar a informação a ser enviada. O "id" é um identificador, nesse caso o q está sendo usado pra associar o input ao label e o que vai ser repassado ao google (parâmetro) na hora de enviar a informação.-->
+        <!--O placeholder serve pra escrever algo dentro da caixinha pra mostrar exemplos do que pode ser pesquisado, um formato específico que deve ser respeitado e etc-->
+
+        <input type="submit" value="Pesquisar"> <!--Aqui está sendo feito o botão de enviar a informação, o atributo "value" serve para substituir o que está escrito por padrão (default) por outra coisa-->
 
     </form>
 </body>
