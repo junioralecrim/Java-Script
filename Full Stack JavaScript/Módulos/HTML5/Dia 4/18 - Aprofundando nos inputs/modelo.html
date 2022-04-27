@@ -4,10 +4,51 @@
     <title>Alguns inputs interessantes</title>
 </head>
 <body>
-    <h3>Encontre</h3>
-    <form action="https://www.google.com/search">
-        <label for="q">Digite seu primeiro nome:</label>
+    <h3>Tipos de inputs</h3>
+    
+    <form action="https://www.google.com/search"> <!--Nome-->
+        <label for="q"> <strong>Primeiro nome -</strong> digite seu primeiro nome:</label>
         <input type="text" name="firstname">
+        <input type="submit" value="Enviar">
     </form>
+    
+    <br> <!--Quebra de linha-->
+    
+    <form action="https://www.google.com/search"> <!--Senha-->
+        <label for="q"> <strong>Senha -</strong> digite a sua senha:</label>
+        <input type="password" name="psw">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="https://www.google.com/search"> <!--Radio (seleção bolinhas)-->
+        <h3>Input do tipo Radio</h3>
+        <label for="q"></label>
+        <input type="radio" name="gender" id="mulher"> Mulher<br>
+        <input type="radio" name="gender" id="homem"> Homem<br>
+        <input type="radio" name="gender" id="outro"> Outro<br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p><strong>Checkbox </strong> </p>
+
+    <form action="https://www.google.com/search">
+        <input type="checkbox" name="vehicle1" id="Bike"> Eu tenho uma bike<br>
+        <input type="checkbox" name="vehicle2" id="Car"> Eu tenho um carro<br>
+    </form>
+
+    <p><strong>Selecione uma cor:</strong> </p>
+
+    <form action="https://www.google.com/search">
+        <input type="color" name="favcolor">
+    </form>
+
+    <p><strong>Seu aniversário:</strong> </p>
+
+    <form action="https://www.google.com/search">
+        <input type="date" name="bday">
+    </form>
+
+
 </body>
 </html>
