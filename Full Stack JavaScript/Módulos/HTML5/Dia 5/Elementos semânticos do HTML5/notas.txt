@@ -1,0 +1,46 @@
+O que é semântica?
+    Estudo do significado das palavras e frases em um idioma
+
+O que são elementos semânticos no HTML 5?
+    São elementos com um significado. Tags que ao ler você entende o que o programador quis fazer alí
+
+1 - Header
+    Seria meio que todo o cabeçalho do site, incluindo já o nav dentro.
+
+2 - Nav
+    A barra de navegação com links do site.
+
+3 - Aside
+    Seria a parte lateral direita e esquerda do site (os elementos que ficam dos lados, tanto direito quanto esquerdo)
+
+4 - Section
+    Blocos dentro do site. Basicamente um agrupamento temático de conteúdo, geralmente com um título e descrição (texto e todo o conteúdo)
+
+5 - Article
+    Elemento independente do resto do site.
+        
+        Ex: Posts no Fórum
+            Posts em blog
+            Comentários do usuário
+            Cartões de produtos
+            Artigos de jornal
+
+EX 2 - Três artigos com conteúdo independente:
+
+<article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+
+6 - Footer
+    Elementos no final da pagina, como links extras e páginas importantes dentro do site.
