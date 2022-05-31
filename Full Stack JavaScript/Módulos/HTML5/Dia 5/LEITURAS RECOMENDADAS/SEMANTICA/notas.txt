@@ -1,0 +1,2 @@
+- Por que é importante usar elementos semânticos no desenvolvimento de sites?
+    Os elementos semânticos são importantes para a identificação de cada elemento no site, pois assim fica mais fácil de saber do que cada trecho de código está tratando.
