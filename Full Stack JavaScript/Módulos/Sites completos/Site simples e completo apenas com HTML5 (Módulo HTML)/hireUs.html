@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spaceships</title>
+</head>
+<body>
+    <header>
+        <nav> <!--Navegação superior do site-->
+            <a href="index.html">
+                <img src="img/logo.png" alt="Space X">
+            </a> |
+            <a href="theSpaceships.html">
+                The Spaceships 
+            </a> |
+            <a href="hireUs.html">
+                Hire Us
+            </a>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h1>Hire Us Now</h1>
+        <p>Leave a message to request one of our services and we will get back you soon as possible.</p>
+    </section>
+    <br><br>
+    <section>
+        <form action="?">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="your name">
+                <label for="email">- Email</label>
+                <input type="email" id="email" placeholder="youemail@gmail.com">
+            </div><br>
+            <br><div>
+                <label for="nave">Spaceship:</label>
+                <select name="nave" id="nave">
+                    <option value="falcon9">Falcon 9</option>
+                    <option value="falconHeavy">Falcon Heavy</option>
+                </select>
+                <label for="service">| Type of Service: </label>
+                <input type="search" name="service" id="service" list="services">
+                <datalist id="services">
+                    <option value="Nam quis nulla. Integer malesuada"></option>
+                    <option value="In in enim a arcu imperdiet malesuada"></option>
+                    <option value="Sed vel lectus. Donec odio uma"></option>
+                    <option value="Aenean id metus id velit ullamcorper pulvinar"></option>
+                </datalist>
+            </div><br>
+            <br><div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
