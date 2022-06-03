@@ -1,0 +1,17 @@
+h1{
+    color: purple;
+    /*border-color: yellow; /*Definindo a cor da borda do h1*/
+    /*border-width: 5px; /*Definindo a largura da borda*/
+    /*border-style: solid; /*Definindo o estilo da borda como sólido/dashed (pontilhado)*/
+
+    border: 5px dashed yellow; /*Aqui eu consigo passar as 3 propriedades acima (de borda) de uma só vez*/
+}
+li{
+    color: green;
+}
+
+body{
+    background-image: url('https://s2.glbimg.com/Nd5_KLxsoRRWZhzd9kMm-1fWlyw=/0x0:2649x1768/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2020/o/H/YVNmiDTAWPYC3x0JBp5w/2020-05-27t202331z-309198878-hp1eg5r1kn613-rtrmadp-3-space-exploration-spacex-launch.jpg'); /*Colocando uma imagem da internet de fundo no site, passando a url dela*/
+    background-repeat: no-repeat; /*Não repetir a imagem no bg*/
+    background-size: cover; /*Ajustar a imagem à tela como uma capa de fundo*/
+}
