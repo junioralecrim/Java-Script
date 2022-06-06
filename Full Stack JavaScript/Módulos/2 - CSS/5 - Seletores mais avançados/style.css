@@ -1,0 +1,25 @@
+/*Seletor star (raramente usado)
+    - Ele seleciona todos os elementos do documento e aplica o estilo
+    - Geralmente não é usado*/
+
+/*
+* {     
+    border: 2px solid;
+} */
+
+/*Seletor de Descendência (muito usado)
+    - Se trata de um seletor que acessa um elemento que está dentro de outro.
+    - No caso abaixo, a tag a (anchor) que está dentro de uma tag ul é descendente da mesma. Então somente as que a tem vão ser estilizadas .*/
+
+/*ul a{
+    color: red;
+} */
+
+
+
+/*Seletor Filho (muito usado)
+    - */
+
+ul > a{
+    color: red;
+} 

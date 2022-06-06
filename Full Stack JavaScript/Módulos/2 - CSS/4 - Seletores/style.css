@@ -1,0 +1,14 @@
+.yello-text{ /*Usando seletor para selecionar apenas uma classe e mudar algumas caracterísitcas dela*/
+    color: yellow;
+}
+
+.big-text{ /*Posso fazer por classe quando quero estilizar
+    vários itens diferentes com uma mesma estilização*/
+    font-size: 40px;
+}
+
+#europa-text{ /*Ou usar um id quando quiser estilizar somente um item específico*/
+    font-size: 10px;
+    color: blue;
+}
+
