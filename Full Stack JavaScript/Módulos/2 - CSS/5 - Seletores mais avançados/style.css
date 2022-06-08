@@ -16,10 +16,34 @@
 } */
 
 
-
 /*Seletor Filho (muito usado)
-    - */
+    - Todo "a" que for filho de ul vai ser aplicada essa estilização*/
 
-ul > a{
+/*ul > a{
     color: red;
-} 
+}*/
+
+
+/*Seletor adjacente
+    - O que for adjacente (ou seja, vinher em seguida do primeiro item)
+      será estilizado
+    - Só funciona se estiver realmente em seguida do outro, se tiver algo no meio 
+      entre os dois não irá funcionar*/
+
+/*h1 + h4{
+    border: 4px dashed red;
+}*/
+
+
+/*Seletor por atributo
+    - O seletor irá buscar os itens que tiverem o atributo igual ao marcado
+    - Abaixo o seletor está procurando pelo atributo da tag a*/
+
+/*a[href="/recibo"] {
+    color: orange;
+}*/
+
+/*NOTA:
+    Usar classes e ID´s sempre é o mais recomendado, algumas vezes usar o seletor
+    de descendência e o de filho também pode ser algo útil.
+*/
