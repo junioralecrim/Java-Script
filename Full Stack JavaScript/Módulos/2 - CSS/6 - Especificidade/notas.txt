@@ -1,0 +1,23 @@
+Basicamente, existe uma hierarquia dentro do CSS.
+
+Alguns tipos de seletores valem mais que outros, segue a esquematização da hierarquia entre os seletores principais
+dentro do CSS:
+
+------ ESCRITO POR ALUNO DO CURSO NOS COMENTÁRIOS ------
+
+O CSS sempre vai buscar colocar o estilo mais específico pra um determinado lugar. 
+Regra da pontuação (sobrescrevendo a herança):
+
+Quanto mais a esquerda o 1 estiver, maior será o nível de hierarquia e o CSS irá aplicálo sempre primeiro. 
+
+- Cada elemento/pseudoelemento -> d = +1 (0, 0, 0, 1); Exemplo: h1 { background: blue; }
+
+- Cada classe/pseudoclasse/atributo -> c = +1 (0, 0, 1, 0); Exemplo: .red { background: red; }
+
+- Cada id -> b = +1 (0, 1, 0, 0); Exemplo: id="titulo" / declaração id: #titulo{ background: lightblue; }
+
+- Estilo inline -> a = +1 (1, 0, 0, 0); Exemplo: style="background: green;"
+
+Resumindo: 
+
+    Inline > Id > Classe > Elemento
