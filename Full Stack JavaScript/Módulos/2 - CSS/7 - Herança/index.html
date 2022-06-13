@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança</title>
+    <style>
+        /*Alguns estilos são passados como herança (de pai para filho). Eu não coloquei estilização 
+            nos outros elementos dentro do site, porém só em ter colocado na div ela já passou como 
+            característica a sua estilização para os filhos.*/
+        /*div{ 
+            color: blue;
+        }*/
+
+        /*Como estou sendo mais específico aqui, os elementos filhos do div apenas que estão recebendo
+            os atributos dados*/
+        /*div ul li{ 
+            color: red;
+        }*/
+        
+        /*
+        div{
+            border: 2px solid;
+        }*/
+
+        /*Fazendo isso, a estilização do pai vai ser herdada pelo filho*/
+        /*div ul{
+            border: inherit; 
+        }*/
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>Planetas</h1>
+        <ul>
+            <li>Terra</li>
+            <li>Marte</li>
+            <li>Júpitert</li>
+        </ul>
+    </div>
+</body>
+</html>
