@@ -4,89 +4,85 @@
 
 
 #rua-endereco{
-    position: absolute;
-    left: 18%;
-    top: 9%;
-    margin-left: 200px;
-    margin-top: 60px;
+    
 }
 
 .contato{
     position: absolute;
-    left: 18%;
-    top: 9%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 600px;
+    height: 70px;
+    top: 40px;
+    right: 506px;
 }
 
 #label-name{
     position: absolute;
-    left: 14.5%;
-    top: 40%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+    top: 244px;
+    right: 1072px;
 }
 
 #input-name{
     position: absolute;
-    left: 18%;
-    top: 40%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 600px;
+    height: 20px;
+    top: 240px;
+    right: 500px;
 }
 
 #label-mail{
     position: absolute;
-    left: 14.2%;
-    top: 46%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+    top: 285px;
+    right: 1076px;
 }
 
 #input-mail{
     position: absolute;
-    left: 18%;
-    top: 46%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 600px;
+    height: 20px;
+    top: 280px;
+    right: 500px;
 }
 
 #label-assunto{
     position: absolute;
-    left: 13.65%;
-    top: 52%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+    top: 323px;
+    right: 1084px;
 }
 
 #input-assunto{
     position: absolute;
-    left: 18%;
-    top: 52%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 600px;
+    height: 20px;
+    top: 320px;
+    right: 500px;
 }
 
-#label-messege{    
+#label-messege{
     position: absolute;
-    left: 12.4%;
-    top: 58%;
-    margin-left: -100px;
-    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+    top: 360px;
+    right: 1100px;
 }
 
 #input-messege{
     position: absolute;
-    left: 18%;
-    top: 58%;
-    margin-left: -100px;
-    margin-top: -40px;    
+    width: 600px;
+    height: 70px;
+    top: 360px;
+    right: 500px;
 }
 
 #input-submit{
     position: absolute;
-    left: 18%;
-    top: 72%;
-    margin-left: -100px;
-    margin-top: -40px;    
+    width: 70px;
+    height: 30px;
+    top: 445px;
+    right: 1037px;
 }
