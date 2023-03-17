@@ -5,4 +5,20 @@
 .form{
     margin: 200px 180px 200px 180px;
     padding: auto;
+    background-color: aqua;
+}
+
+.box{
+    height: 20px;
+    width: 20px;
+    margin: 50px auto 20px auto;
+    background-color: black;
+}
+
+
+.boxb{
+    height: 50px;
+    width: 50px;
+    margin: 0px auto 0px auto;
+    background-color: black;
 }
