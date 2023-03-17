@@ -1,0 +1,15 @@
+/**{
+    box-sizing: border-box;
+}
+
+table, th, tr, td{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.sem-borda{
+    border-right: none;
+    width: 50%
+}*/
